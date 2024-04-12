@@ -57,7 +57,7 @@ section.active {
 }
 
 .gallery-item {
-    text-align: center;
+    text-align:center;
     background-color: #fde74cff; /* Maize */
     padding: 20px;
     border-radius: 5px;
@@ -65,7 +65,7 @@ section.active {
 
 .gallery-item img {
     max-width: 100%;
-    height: auto;
+    height: 300px;
 }
 
 /* Estilos de la sección de contacto */
