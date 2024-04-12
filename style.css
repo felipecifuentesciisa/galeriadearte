@@ -1,0 +1,113 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #404e4dff; /* Outer Space */
+    color: #fff;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #404e4dff; /* Outer Space */
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #5bc0ebff; /* Aero */
+}
+
+/* Estilos de las secciones */
+section {
+    padding: 50px;
+    display: none;
+}
+
+section.active {
+    display: block;
+}
+
+/* Estilos de la sección de la galería */
+#galeria {
+    background-color: #9bc53dff; /* Yellow Green */
+    color: #404e4dff; /* Outer Space */
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.gallery-item {
+    text-align: center;
+    background-color: #fde74cff; /* Maize */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos de la sección de contacto */
+#contacto {
+    background-color: #c3423fff; /* Persian Red */
+    color: #fff;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #5bc0ebff; /* Aero */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #404e4dff; /* Outer Space */
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #404e4dff; /* Outer Space */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Arte</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#" data-section="inicio">Inicio</a></li>
+            <li><a href="#" data-section="galeria">Galería</a></li>
+            <li><a href="#" data-section="contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="inicio" class="active">
+        <h1>Bienvenido a nuestra Galería de Arte</h1>
+        <p>Descubre una selección de obras de arte excepcionales.</p>
+    </section>
+
+    <section id="galeria">
+        <h2>Nuestra Galería</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="imagen1.jpg" alt="Obra de arte 1">
+                <h3>Obra de arte 1</h3>
+                <p>Descripción de la obra de arte 1.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="imagen2.jpg" alt="Obra de arte 2">
+                <h3>Obra de arte 2</h3>
+                <p>Descripción de la obra de arte 2.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="imagen3.jpg" alt="Obra de arte 3">
+                <h3>Obra de arte 3</h3>
+                <p>Descripción de la obra de arte 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Galería de Arte. Todos los derechos reservados.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
