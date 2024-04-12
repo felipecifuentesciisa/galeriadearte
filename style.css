@@ -3,13 +3,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #404e4dff; /* Outer Space */
+    background-color: #7f4f24; /* Outer Space */
     color: #fff;
 }
 
 /* Estilos del encabezado */
 header {
-    background-color: #404e4dff; /* Outer Space */
+    background-color: #582f0e; /* Outer Space */
     padding: 20px;
 }
 
@@ -46,7 +46,7 @@ section.active {
 
 /* Estilos de la sección de la galería */
 #galeria {
-    background-color: #9bc53dff; /* Yellow Green */
+    background-color: #c2c5aa; /* Yellow Green */
     color: #404e4dff; /* Outer Space */
 }
 
@@ -58,7 +58,7 @@ section.active {
 
 .gallery-item {
     text-align:center;
-    background-color: #fde74cff; /* Maize */
+    background-color: #b6ad90; /* Maize */
     padding: 20px;
     border-radius: 5px;
 }
@@ -70,7 +70,7 @@ section.active {
 
 /* Estilos de la sección de contacto */
 #contacto {
-    background-color: #c3423fff; /* Persian Red */
+    background-color: #7f4f24; /* Persian Red */
     color: #fff;
 }
 
@@ -106,7 +106,7 @@ form button:hover {
 
 /* Estilos del pie de página */
 footer {
-    background-color: #404e4dff; /* Outer Space */
+    background-color: #7f4f24; /* Outer Space */
     color: #fff;
     text-align: center;
     padding: 20px;
